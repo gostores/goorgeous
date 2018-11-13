@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"regexp"
 
-	"github.com/gostores/encoding/markdown"
+	"github.com/govenue/encoding/markdown"
 )
 
 type inlineParser func(p *parser, out *bytes.Buffer, data []byte, offset int) int

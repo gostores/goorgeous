@@ -5,7 +5,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/gostores/encoding/markdown"
+	"github.com/govenue/encoding/markdown"
 )
 
 var update = flag.Bool("update", false, "update golden files")
